@@ -13,7 +13,7 @@ This repository contains all the SQL scripts, solution files, and documentation 
 
 ## Files & Folders
 
-- <a href = "https://github.com/f-clinton/sql-data-warehouse-analytics/blob/main/SQLQuery2.sql">**CreateDatabaseAndSchemas.sql**</a>: builds (or rebuilds) the `DataWarehouseAnalytics` database and `gold` schema, then bulk-loads raw CSV data into staging tables.
+- <a href = "https://github.com/f-clinton/sql-data-warehouse-analytics/blob/main/SQLQuery2.sql">**MainSQL**</a>: builds (or rebuilds) the `DataWarehouseAnalytics` database and `gold` schema, then bulk-loads raw CSV data into staging tables.
 - **Views And Reports**: creates views such as `gold.report_of_customers` and `gold.report_of_products`.
 - <a href = "https://github.com/f-clinton/sql-data-warehouse-analytics/blob/main/productReport.sql">**ProductReport.sql**</a>: contains additional product-level analytics (running totals, recency, segmentation).
 - <a href = "https://github.com/f-clinton/sql-data-warehouse-analytics/blob/main/customerReport.sql" >**CustomerReport.sql**</a>: contains additional product-level analytics (running totals, recency, segmentation).
